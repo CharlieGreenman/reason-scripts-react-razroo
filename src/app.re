@@ -13,6 +13,7 @@ let make = (~message, _children) => {
         <h2> (ReasonReact.stringToElement(message)) </h2>
       </div>
       <p className="App-intro">
+        ReactDOMRe.renderToElementWithId(<ShowHide/>, "root")
         (ReasonReact.stringToElement("To get started, edit"))
         <code> (ReasonReact.stringToElement(" src/app.re ")) </code>
         (ReasonReact.stringToElement("and save to reload."))
